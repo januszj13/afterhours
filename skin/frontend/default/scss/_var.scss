@@ -1,0 +1,43 @@
+
+/* vars */
+
+$c-gray: #eeeeee;
+$c-gray-dark: #a7a9ac;
+$c-blue-light: #dff3fd;
+$c-blue: #50a6df;
+$c-blue-dark: #0266b3;
+$c-input-bg: #fbfbfb;
+$c-input-border: $c-gray-dark;
+$c-input-color: $c-gray-dark;
+$c-button-bg: #fff;
+$c-button-border: $c-gray-dark;
+$c-button-color: $c-gray-dark;
+$c-action: $c-blue-dark;
+$c-current: $c-gray-dark;
+$c-more: #dc173f;
+$c-text: #2d2c2e; 
+
+$c-module-border: $c-gray-dark;
+$c-module-border-light: #e5e5e5;
+$c-module-spot: $c-gray-dark;
+$c-module-spot-active: #000;
+
+$max-wrapper-width: 1200px;
+$max-container-width: 800px; 
+
+$f-stack-default: 'Open Sans', Helvetica, sans-serif;
+$f-stack-special: 'Lora', Georgia, serif; 
+
+
+// =============================================
+// Primary Break Points
+// =============================================
+
+// These should be used with the bp (max-width, xx) mixin
+// where a min-width is used, remember to +1 to break correctly.
+
+$bp-xsmall: 479px;
+$bp-small: 599px;
+$bp-medium: 770px;
+$bp-large: 979px;
+$bp-xlarge: 1199px;
