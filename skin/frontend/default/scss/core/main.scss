@@ -278,6 +278,7 @@ header {
         position: absolute;
         left: 0;
         top: 10px;
+        max-width: 50px;
         @include clip-path(circle(25px at center));
     }
 
@@ -473,5 +474,13 @@ header {
                 color: #000;
             }
         }
+    }
+}
+
+.mr-more {
+    &__link {
+        color: red;
+        margin: 20px 0 30px;
+        display: inline-block;
     }
 }

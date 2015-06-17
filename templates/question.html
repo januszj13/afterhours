@@ -1,0 +1,58 @@
+
+<article class="post">
+    <header class="post__header">
+        <div class="post__meta">
+            <img class="post__author-image author-image" src="{{profile_image}}" alt="Activity image">
+            <address class="post__author"><a data-link="{{owner_link}}" data-userid="{{user_id}}" rel="author" href="/author/{{user_id}}">{{display_name}}</a></address> 
+            is asking:
+        </div>
+        <h2 class="post__title"><a href="{{link}}">{{title}}</a></h2>
+    </header>      
+    <div class="post__activities activities">
+        <div class="activity activity--asked">
+            <div class="activity__footer">
+                <span class="activity__label">ASKED</span>    
+            </div>
+        </div>
+        <div class="activity activity--more">
+            <div class="activity__content">
+                {{answer_count}}
+            </div>
+            <div class="activity__footer">
+                <span class="activity__label activity__label--more">more activities</span>    
+            </div>
+        </div>
+        <ol class="activities-list">
+            <li class="activities-list__item">
+                <div class="activity activity--commented">
+                    <div class="activity__content">
+                        <img class="activity__image" src="skin/frontend/default/images/author-placeholder.jpg" alt="Activity image">
+                    </div>
+                    <div class="activity__footer">
+                        <span class="activity__label">COMMENTED</span>    
+                    </div>
+                </div>        
+            </li>
+            <li class="activities-list__item">
+                <div class="activity activity--answered">
+                    <div class="activity__content">
+                        <img class="activity__image" src="skin/frontend/default/images/author-placeholder.jpg" alt="Activity image">
+                    </div>
+                    <div class="activity__footer activity__footer--answered">
+                        <span class="activity__label activity__label--answered">ANSWERED</span>    
+                    </div>
+                </div>        
+            </li>
+
+
+        </ol>
+        <div class="activities__stats activities-stats">
+            <ol class="activities-stats__list">
+                <li class="activities-stats__item"><span class="activities-stats__value">2</span> related discussion</li>
+                <li class="activities-stats__item"><span class="activities-stats__value">8</span> peers involved</li>
+                <li class="activities-stats__item"><span class="activities-stats__value">5</span> conversations</li>
+            </ol>
+        </div>
+
+    </div>
+</article>
